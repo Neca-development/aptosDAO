@@ -1,0 +1,27 @@
+[package]
+name = 'dao'
+version = '1.0.0'
+[addresses]
+std =  "0x1"
+aptos_framework = "0x1"
+dao_address = "0x5665FF6558066D4243686B6BE23E57DCE118CE4006E062882AE35448D3CF320A"
+
+[dependencies.MoveStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/move-stdlib"
+rev = "devnet"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/aptos-framework"
+rev = "devnet"
+
+[dependencies.AptosToken]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/aptos-token"
+rev = "devnet"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/aptos-stdlib"
+rev = "devnet"
